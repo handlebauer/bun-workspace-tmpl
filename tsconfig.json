@@ -8,12 +8,6 @@
         "jsx": "react-jsx",
         "allowJs": true,
 
-        // Resolution
-        "baseUrl": "./src",
-        "paths": {
-            "~/*": ["*"]
-        },
-
         // Bundler mode
         "moduleResolution": "bundler",
         "allowImportingTsExtensions": true,
