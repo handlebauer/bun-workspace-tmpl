@@ -1,8 +1,8 @@
 {
     "name": "bun-workspace-tmpl",
-    "version": "0.0.1",
-    "type": "module",
     "private": true,
+    "type": "module",
+    "version": "0.0.1",
     "workspaces": [
         "packages/*"
     ],
@@ -14,15 +14,20 @@
         "bump": "bunx bumpp"
     },
     "devDependencies": {
+        "@eslint/js": "^9.10.0",
         "@types/bun": "latest",
-        "@typescript-eslint/eslint-plugin": "^8.2.0",
-        "@typescript-eslint/parser": "^8.2.0",
-        "eslint": "^9.9.1",
+        "@types/eslint-config-prettier": "^6.11.3",
+        "@types/eslint__js": "^8.42.3",
+        "@typescript-eslint/eslint-plugin": "^8.5.0",
+        "@typescript-eslint/parser": "^8.5.0",
+        "eslint": "^9.10.0",
         "eslint-config-prettier": "^9.1.0",
+        "eslint-import-resolver-typescript": "^3.6.3",
+        "eslint-plugin-import-x": "^4.2.1",
         "eslint-plugin-prettier": "^5.2.1",
         "husky": "^9.1.5",
         "prettier": "^3.3.3",
-        "typescript-eslint": "^8.2.0"
+        "typescript-eslint": "^8.5.0"
     },
     "peerDependencies": {
         "typescript": "^5.0.0"
